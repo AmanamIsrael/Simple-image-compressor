@@ -5,7 +5,6 @@ const downloadBtn = document.getElementById('btn');
 
 let initialSize;
 let compressedSize;
-let compressedFile;
 
 function compress(e) {
     const width = 100;
