@@ -13,7 +13,7 @@ function compress(e) {
     const fileName = file.name;
     initialSize = file.size;
     const reader = new FileReader();
-    reader.readAsDataURL(e.target.files[0]);
+    reader.readAsDataURL(file);
     reader.onload = event => {
         const img = new Image();
         img.src = event.target.result;
