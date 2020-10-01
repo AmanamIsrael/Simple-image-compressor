@@ -9,7 +9,7 @@ let compressedSize;
 function compress(e) {
     const width = 100;
     const height = 100;
-    const file = e.target.files[0]
+    const file = e.target.files[0];
     const fileName = file.name;
     initialSize = file.size;
     const reader = new FileReader();
