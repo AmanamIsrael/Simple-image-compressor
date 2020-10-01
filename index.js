@@ -39,7 +39,7 @@ function compress(e) {
                 }, 'image/jpeg', 1);
             },
             reader.onerror = error => {
-                console.log(error)
+                console.error(error);
             }
     }
 }
