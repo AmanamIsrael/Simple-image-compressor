@@ -9,10 +9,14 @@ body {
     box-sizing: border-box;
     text-align: center;
 }
-
+#compressedImg{
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px 15px rgb(159, 128, 244);
+}
 input {
     margin-bottom: 3em;
 }
+
 
 #compressedImg{
     background-color: whitesmoke;
