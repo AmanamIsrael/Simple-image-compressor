@@ -2,25 +2,42 @@
 body {
     margin: 1em;
     font-family: 'Inter', sans-serif;
+    background-color: rgb(173, 144, 255);
 }
 
 * {
     box-sizing: border-box;
+    text-align: center;
 }
-
+#compressedImg{
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px 15px rgb(159, 128, 244);
+}
 input {
     margin-bottom: 3em;
 }
 
+
+#compressedImg{
+    background-color: whitesmoke;
+}
 a {
     display: none;
     text-decoration: none;
     padding: .5em;
     background-color: rgb(41, 41, 41);
     color: rgb(255, 255, 255);
+    border-radius: 3px;
 }
-
+a:hover{
+    background-color: blueviolet;
+}
+h6{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(50, 9, 89);
+    font-size: small;
+}
 img {
     height: 300px;
-    width: 400px;
+    width: 320px;
 }
